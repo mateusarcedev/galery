@@ -1,6 +1,6 @@
 header {
-  background-color: #a486b1;
-  margin-bottom: 4rem;
+  background-color: rgb(205, 165, 165);
+  margin-bottom: 2rem;
 }
 
 .header-wrapper {
@@ -13,7 +13,7 @@ header {
 }
 
 .header-wrapper h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .image-gallery-wrapper {
@@ -30,3 +30,16 @@ header {
     padding: 1rem;
   }
 }
+
+/* styles.css */
+
+.image-gallery-slide .image-gallery-description {
+  background-color:  rgb(205, 165, 165);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
