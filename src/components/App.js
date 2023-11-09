@@ -13,7 +13,7 @@ CAMPO DE ESTÁGIO SUPERVISIONADO EM SAÚDE COLETIVA TEFÉ - AM, LEVANDO SAÚDE A
         </div>
       </header>
       <div className="image-gallery-wrapper">
-        <ImageGallery items={images} />
+        <ImageGallery items={images}  slideInterval={5000} />
       </div>
     </div>
   );
